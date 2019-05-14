@@ -4,7 +4,11 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.3'
 
 # Css library
-gem 'bootstrap-sass', '~> 3.3'
+gem 'bootstrap', '~> 4.3.1'
+# dependencies for bootstrap
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+gem 'jquery-rails'
+
 # font library
 gem 'font-awesome-sass', '~> 5.5.0'
 
