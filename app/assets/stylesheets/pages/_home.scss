@@ -1,1 +1,25 @@
 // layout of the home page //
+.grid-container {
+  border: 2px solid red;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: 16px;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.top-navbar {
+  border: 2px solid red;
+  grid-column: 2 / span 8;
+
+}
+
+
+.left-navbar {
+  border: 2px solid red;
+  grid-column: 1;
+  grid-row: 1 / span 5
+
+}
+
