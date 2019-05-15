@@ -7,11 +7,13 @@
   padding-top: 50px;
 }
 
-.fa-reddit-alien, .fa-clock, .fa-github-alt, .blue {
+.icon {
   font-size: 16px;
   color: #64DDF6;
-  margin-bottom: 0px;
-  padding: 0px;
+
+  p {
+    margin-bottom: 0px;
+  }
 }
 
 #grey {
@@ -19,8 +21,4 @@
   text-align: center;
   color: grey;
   opacity: 0.8;
-  margin-top: 0px;
-}
-
-.blue {
 }
