@@ -2,11 +2,19 @@
   border: 2px solid red;
   grid-column: 1;
   grid-row: 1 / span 6;
+  padding-top: 20px;
 
 }
 
-.icon-left-navbar {
+.settings {
+  display: flex;
   padding: 10%;
+  p {
+    padding-left: 10px;
+    color: #64DDF6;
+    font-size: 14px;
+  }
+
 }
 
 .square-settings {
@@ -16,3 +24,4 @@
   border-radius: 10%;
   text-align: center;
 }
+
