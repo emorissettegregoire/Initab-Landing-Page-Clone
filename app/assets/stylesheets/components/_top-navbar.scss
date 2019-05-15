@@ -1,5 +1,26 @@
 .top-navbar {
   border: 2px solid red;
   grid-column: 2 / span 8;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 50px;
+}
 
+.fa-reddit-alien, .fa-clock, .fa-github-alt, .blue {
+  font-size: 16px;
+  color: #64DDF6;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+#grey {
+  font-size: 10px;
+  text-align: center;
+  color: grey;
+  opacity: 0.8;
+  margin-top: 0px;
+}
+
+.blue {
 }
