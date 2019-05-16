@@ -5,7 +5,8 @@
   padding-top: 20px;
 }
 
-.settings, .gists, .stackoverflow, .trending, .scratchpad {
+.settings, .gists, .stackoverflow, .trending, .scratchpad, .playground, .help
+ {
   display: flex;
   align-items: flex-start;
   padding: 10%;
@@ -53,6 +54,22 @@
   text-align: center;
 }
 
+.square-playground {
+  height: 25%;
+  width: 25%;
+  background-color: white;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.square-help {
+  height: 25%;
+  width: 25%;
+  background-color: #FFFF82;
+  border-radius: 10%;
+  text-align: center;
+}
+
 .settings > p {
   padding-left: 10px;
   padding-top: 2%;
@@ -85,6 +102,20 @@
   padding-left: 10px;
   padding-top: 2%;
   color: #B46CFC;
+  font-size: 12px;
+}
+
+.playground > p {
+  padding-left: 10px;
+  padding-top: 2%;
+  color: white;
+  font-size: 12px;
+}
+
+.help > p {
+  padding-left: 10px;
+  padding-top: 2%;
+  color: #FFFF82;
   font-size: 12px;
 }
 
