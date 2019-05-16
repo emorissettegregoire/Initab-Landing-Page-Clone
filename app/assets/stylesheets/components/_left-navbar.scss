@@ -2,5 +2,199 @@
   border: 2px solid red;
   grid-column: 1;
   grid-row: 1 / span 6;
+  padding-top: 20px;
+  position: relative;
+  background-color: #373F51;
+}
 
+.settings, .gists, .stackoverflow, .trending, .scratchpad, .playground, .help
+ {
+  display: flex;
+  align-items: flex-start;
+  padding: 10%;
+  padding-left: 5%;
+  padding-bottom: 0;
+}
+
+.square-settings {
+  height: 25%;
+  width: 25%;
+  background-color: #64DDF6;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.square-gists {
+  height: 25%;
+  width: 25%;
+  background-color: #16D84B;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.square-stackoverflow {
+  height: 25%;
+  width: 25%;
+  background-color: #F18805;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.square-trending {
+  height: 25%;
+  width: 25%;
+  background-color: #F564A9;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.square-scratchpad {
+  height: 25%;
+  width: 25%;
+  background-color: #B46CFC;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.square-playground {
+  height: 25%;
+  width: 25%;
+  background-color: white;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.square-help {
+  height: 25%;
+  width: 25%;
+  background-color: #FFFF82;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.settings > p {
+  padding-left: 10px;
+  padding-top: 2%;
+  color: #64DDF6;
+  font-size: 12px;
+}
+
+.gists > p {
+  padding-left: 10px;
+  padding-top: 2%;
+  color: #16D84B;
+  font-size: 12px;
+}
+
+.stackoverflow > p {
+  padding-left: 10px;
+  padding-top: 2%;
+  color: #F18805;
+  font-size: 12px;
+}
+
+.trending > p {
+  padding-left: 10px;
+  padding-top: 2%;
+  color: #F564A9;
+  font-size: 12px;
+}
+
+.scratchpad > p {
+  padding-left: 10px;
+  padding-top: 2%;
+  color: #B46CFC;
+  font-size: 12px;
+}
+
+.playground > p {
+  padding-left: 10px;
+  padding-top: 2%;
+  color: white;
+  font-size: 12px;
+}
+
+.help > p {
+  padding-left: 10px;
+  padding-top: 2%;
+  color: #FFFF82;
+  font-size: 12px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 20px;
+}
+
+.twitter-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  background-color: #1A97F0;
+  border-radius: 50%;
+
+  .fab.fa-twitter {
+    color: white;
+    font-size: 12px;
+  }
+}
+
+.facebook-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  background-color: #044389;
+  border-radius: 50%;
+
+  .fab.fa-facebook-f {
+    color: white;
+    font-size: 12px;
+  }
+}
+
+.linkedin-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  background-color: #255E96;
+  border-radius: 50%;
+
+  .fab.fa-linkedin-in {
+    color: white;
+    font-size: 12px;
+  }
+}
+
+.reddit-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  background-color: #457EAC;
+  border-radius: 50%;
+
+  .fab.fa-reddit-alien {
+    color: white;
+    font-size: 16px;
+  }
+}
+
+.initab-logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 88%;
+  opacity: 0.8;
 }
