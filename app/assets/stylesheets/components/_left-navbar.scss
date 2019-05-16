@@ -6,16 +6,11 @@
 
 }
 
-.settings {
+.settings, .gists {
   display: flex;
   padding: 10%;
-  p {
-    padding-left: 10px;
-    color: #64DDF6;
-    font-size: 14px;
-  }
-
 }
+
 
 .square-settings {
   height: 25%;
@@ -23,5 +18,25 @@
   background-color: #64DDF6;
   border-radius: 10%;
   text-align: center;
+}
+
+.square-gists {
+  height: 25%;
+  width: 25%;
+  background-color: #16D84B;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.settings > p {
+    padding-left: 10px;
+    color: #64DDF6;
+    font-size: 14px;
+}
+
+.gists > p {
+    padding-left: 10px;
+    color: #16D84B;
+    font-size: 14px;
 }
 
