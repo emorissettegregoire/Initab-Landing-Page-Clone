@@ -5,10 +5,11 @@
   padding-top: 20px;
 }
 
-.settings, .gists, .stackoverflow, .trending {
+.settings, .gists, .stackoverflow, .trending, .scratchpad {
   display: flex;
   align-items: flex-start;
   padding: 10%;
+  padding-left: 5%;
   padding-bottom: 0;
 }
 
@@ -44,6 +45,14 @@
   text-align: center;
 }
 
+.square-scratchpad {
+  height: 25%;
+  width: 25%;
+  background-color: #B46CFC;
+  border-radius: 10%;
+  text-align: center;
+}
+
 .settings > p {
   padding-left: 10px;
   padding-top: 2%;
@@ -69,6 +78,13 @@
   padding-left: 10px;
   padding-top: 2%;
   color: #F564A9;
+  font-size: 12px;
+}
+
+.scratchpad > p {
+  padding-left: 10px;
+  padding-top: 2%;
+  color: #B46CFC;
   font-size: 12px;
 }
 
