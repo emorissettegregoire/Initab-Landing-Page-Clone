@@ -3,6 +3,7 @@
   grid-column: 1;
   grid-row: 1 / span 6;
   padding-top: 20px;
+  position: relative;
 }
 
 .settings, .gists, .stackoverflow, .trending, .scratchpad, .playground, .help
@@ -121,6 +122,11 @@
 
 .social-icons {
   display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-around;
+  padding-bottom: 20px;
 }
 
 .twitter-circle {
@@ -181,4 +187,17 @@
     color: white;
     font-size: 16px;
   }
+}
+
+.initab-logo {
+  margin: auto;
+}
+
+.bottom-left-navbar {
+  align-items: flex-end;
+}
+
+
+.bottom-left-navbar {
+  justify-content: center;
 }
