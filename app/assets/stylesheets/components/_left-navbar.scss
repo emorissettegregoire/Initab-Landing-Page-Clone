@@ -3,12 +3,13 @@
   grid-column: 1;
   grid-row: 1 / span 6;
   padding-top: 20px;
-
 }
 
-.settings, .gists {
+.settings, .gists, .stackoverflow {
   display: flex;
+  align-items: flex-start;
   padding: 10%;
+  padding-bottom: 0;
 }
 
 
@@ -28,15 +29,32 @@
   text-align: center;
 }
 
+.square-stackoverflow {
+  height: 25%;
+  width: 25%;
+  background-color: #F18805;
+  border-radius: 10%;
+  text-align: center;
+}
+
 .settings > p {
-    padding-left: 10px;
-    color: #64DDF6;
-    font-size: 14px;
+  padding-left: 10px;
+  padding-top: 2%;
+  color: #64DDF6;
+  font-size: 12px;
 }
 
 .gists > p {
-    padding-left: 10px;
-    color: #16D84B;
-    font-size: 14px;
+  padding-left: 10px;
+  padding-top: 2%;
+  color: #16D84B;
+  font-size: 12px;
+}
+
+.stackoverflow > p {
+  padding-left: 10px;
+  padding-top: 2%;
+  color: #F18805;
+  font-size: 12px;
 }
 
