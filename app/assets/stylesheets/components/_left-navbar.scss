@@ -4,6 +4,7 @@
   grid-row: 1 / span 6;
   padding-top: 20px;
   position: relative;
+  background-color: #373F51;
 }
 
 .settings, .gists, .stackoverflow, .trending, .scratchpad, .playground, .help
@@ -195,4 +196,5 @@
   width: 100%;
   position: absolute;
   top: 88%;
+  opacity: 0.8;
 }
