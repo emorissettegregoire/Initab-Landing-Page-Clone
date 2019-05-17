@@ -1,12 +1,17 @@
 .reddit {
-  border: 2px solid red;
   grid-column: 2 / span 2;
   grid-row: 2 / span 5;
+}
 
+.reddit-card {
+  border-left: 2px solid #777AA3;
+  padding-left: 10px;
+  font-size: 14px;
 }
 
 #post {
-  color: white
+  color: white;
+  margin-bottom: 2px;
 }
 
 .posted {
@@ -15,16 +20,23 @@
 
 #posted-by {
   color: #64DDF6;
+  margin-bottom: 2px;
 }
 
 #author {
   color: #FFFF82;
+  margin-bottom: 2px;
+}
+
+#score {
+  color: #777AA3;
+  margin-bottom: 2px;
 }
 
 a:link, a:visited {
     color: #F564A9;
     text-decoration: underline;
-
+    margin-bottom: 2px;
   &:hover {
     color: #F564A9;
     opacity: 0.8;

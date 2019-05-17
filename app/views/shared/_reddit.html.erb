@@ -1,4 +1,7 @@
 <div class="reddit">
+
+<%= 10.times do |redditcards| %>
+
   <div class="reddit-card">
     <p id="post">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <div class="posted">
@@ -7,4 +10,7 @@
     <p id="score">Redit score: <%= rand(0..500) %></p>
     <a href="https://chingu.io/" target="_blank">Link to comments</a>
   </div>
+<% end %>
+
 </div>
+
