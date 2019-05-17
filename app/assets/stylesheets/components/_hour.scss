@@ -7,10 +7,22 @@
 
 .datetime {
   h2 {
-    color: white;
+    color: #777AA3;
   }
   p {
-    color: white;
+    color: #777AA3;
     font-style: lighter;
   }
+}
+
+.sentence {
+  color: #777AA3;
+}
+
+.fas.fa-question-circle {
+  color: #FF9F1C;
+}
+
+#orange-sentence {
+  color: #FF9F1C;
 }
