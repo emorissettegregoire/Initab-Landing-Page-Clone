@@ -3,3 +3,26 @@
   grid-column: 8 / span 2;
   grid-row: 2 / span 5;
 }
+
+.github-issue-card {
+  margin: 0 0 40px 0;
+  padding: 0 0 0 10px;
+  border-left: 2px solid #777AA3;
+  font-size: 14px;
+}
+
+#issue-repo {
+  color: #777AA3;
+  margin-bottom: 2px;
+}
+
+#issue-number {
+  color: #FFFF82;
+  margin-bottom: 2px;
+}
+
+#issue-description {
+  color: white;
+  margin-bottom: 2px;
+}
+
