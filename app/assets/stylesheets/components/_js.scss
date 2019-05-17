@@ -1,5 +1,5 @@
 .js-list-container {
-  border: 2px solid red;
+  border-bottom: 1px solid #777AA3;
   grid-column: 4 / span 4;
   grid-row: 2 / span 2;
   overflow-y: scroll;
@@ -22,7 +22,7 @@
   flex: 1;
   width: 1px;
   p {
-    color: #33497E;
+    color: #777AA3;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
