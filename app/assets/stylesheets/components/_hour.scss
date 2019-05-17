@@ -1,28 +1,51 @@
 .hour {
-  border: 2px solid red;
+  height: 100vh;
   grid-column: 4 / span 4;
   grid-row: 4 / span 3;
-
+  text-align: center;
+  padding: 50px;
 }
 
-.datetime {
+.time {
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
   h2 {
     color: #777AA3;
+    font-size: 100px;
   }
+
   p {
     color: #777AA3;
-    font-style: lighter;
+    font-size: 18px;
+    font-weight: lighter;
   }
+}
+
+#ampm {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.date {
+  color: #777AA3;
 }
 
 .sentence {
   color: #777AA3;
+  font-size: 10px;
+  p {
+    margin-bottom: 0px;
+  }
 }
 
 .fas.fa-question-circle {
-  color: #FF9F1C;
+  color: #FFCD7C;
+  font-size: 12px;
 }
 
 #orange-sentence {
-  color: #FF9F1C;
+  color: #FFCD7C;
+  font-size: 10px;
+  font-weight: bold;
 }

@@ -1,8 +1,10 @@
 
 <div class="hour">
-  <div class="datetime">
-    <h2><%= Time.now.strftime("%B %d, %Y")%></h2>
-    <p><%= Time.now.strftime("%l:%M %p")%><p>
+  <div class="time">
+    <h2><%= Time.now.strftime("%l:%M")%><h2><p id="ampm"><%= Time.now.strftime("%p")%></p>
+  </div>
+  <div class="date">
+    <p><%= Time.now.strftime("%B %d, %Y")%></p>
   </div>
   <div class="sentence">
     <p><i class="fas fa-question-circle"></i> Did you know you can add CUSTOM LINKS to display in this section?</p>
