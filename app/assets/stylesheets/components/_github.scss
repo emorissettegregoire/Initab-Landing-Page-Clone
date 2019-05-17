@@ -2,19 +2,20 @@
   border: 2px solid red;
   grid-column: 8 / span 2;
   grid-row: 2 / span 5;
-}
-
-.github-issue-card {
-  margin: 0 0 40px 0;
-  padding: 0 0 0 10px;
-  border-left: 2px solid #777AA3;
-  font-size: 14px;
+  overflow-y: scroll;
 }
 
 .github-navbar {
   display: flex;
   justify-content: space-around;
   padding: 0 60px 20px 60px;
+  font-size: 14px;
+}
+
+.github-issue-card {
+  margin: 0 0 40px 0;
+  padding: 0 0 0 10px;
+  border-left: 2px solid #777AA3;
   font-size: 14px;
 }
 
