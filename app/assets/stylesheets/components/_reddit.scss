@@ -1,11 +1,16 @@
 .reddit {
   grid-column: 2 / span 2;
   grid-row: 2 / span 5;
+  overflow-y: scroll;
+  // display: flex;
+  // flex-direction: column;
+  justify-content: space-between;
 }
 
 .reddit-card {
+  margin: 0 0 40px 0;
+  padding: 0 0 0 10px;
   border-left: 2px solid #777AA3;
-  padding-left: 10px;
   font-size: 14px;
 }
 
@@ -39,7 +44,7 @@ a:link, a:visited {
     margin-bottom: 2px;
   &:hover {
     color: #F564A9;
-    opacity: 0.8;
+    opacity: 0.9;
     text-decoration: none;
   }
 }
