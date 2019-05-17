@@ -5,3 +5,29 @@
 
 }
 
+#post {
+  color: white
+}
+
+.posted {
+  display: flex;
+}
+
+#posted-by {
+  color: #64DDF6;
+}
+
+#author {
+  color: #FFFF82;
+}
+
+a:link, a:visited {
+    color: #F564A9;
+    text-decoration: underline;
+
+  &:hover {
+    color: #F564A9;
+    opacity: 0.8;
+    text-decoration: none;
+  }
+}
