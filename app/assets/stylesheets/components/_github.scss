@@ -1,5 +1,4 @@
 .github {
-  border: 2px solid red;
   grid-column: 8 / span 2;
   grid-row: 2 / span 5;
   overflow-y: scroll;
@@ -10,6 +9,9 @@
   justify-content: space-around;
   padding: 0 60px 20px 60px;
   font-size: 14px;
+  background-color: #20202B;
+  position: sticky;
+  top: 0;
 }
 
 .github-issue-card {
