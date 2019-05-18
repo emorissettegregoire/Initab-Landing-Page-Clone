@@ -35,6 +35,9 @@
 a:link, a:visited {
   cursor: pointer;
   text-decoration: none;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .tab-underlined.active, .tab-underlined {
