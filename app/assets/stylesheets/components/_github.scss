@@ -5,6 +5,7 @@
 }
 
 .github-navbar {
+  border: 2px solid red;
   display: flex;
   justify-content: space-around;
   padding: 0 60px 20px 60px;
@@ -14,19 +15,37 @@
   top: 0;
 }
 
+.issues-tab {
+  border: 2px solid red;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  .fas.fa-sort-up {
+    color: #FFFF82;  }
+}
+
+.tab-underlined.active, .tab-underlined {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.tab-underlined.active {
+  color: #FFFF82;
+  &:hover {
+    color: #FFFF82;
+    opacity: 0.8;
+  }
+}
+
+.tab-underlined {
+  color: #F564A9;
+}
+
 .github-issue-card {
   margin: 0 0 40px 0;
   padding: 0 0 0 10px;
   border-left: 2px solid #777AA3;
   font-size: 14px;
-}
-
-.issues-tab {
-  color: #FFFF82;
-}
-
-.pull-requests-tab {
-  color: #F564A9;
 }
 
 #issue-repo {
