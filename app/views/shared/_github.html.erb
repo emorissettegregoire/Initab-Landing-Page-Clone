@@ -1,9 +1,21 @@
 <div class="github">
 
-  <div class="github-issue-card">
-    <p id="issue-number">Issue #: <%= rand(0..2000) %></p>
-    <p id="issue-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <p id="issue-repo">Repo: GoogleChrome/myrepo</p>
+  <div class="github-navbar">
+    <div class="issues-tab">
+      <a href="#" class="tab-underlined active"><%= "issues".upcase %></a>
+      <i class="fas fa-sort-up"></i>
+    </div>
+    <div class="pull-requests-tab">
+      <a href="#" class="tab-underlined"><%= "pull requests".upcase %></a>
+      <i class="fas fa-sort-up"></i>
+    </div>
   </div>
 
+  <%= 10.times do |githubcards| %>
+    <div class="github-issue-card">
+      <p id="issue-repo">Repo: GoogleChrome/myrepo</p>
+      <p id="issue-number">Issue #: <%= rand(0..2000) %></p>
+      <p id="issue-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  <% end %>
 </div>

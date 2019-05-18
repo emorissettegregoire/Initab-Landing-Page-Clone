@@ -1,5 +1,80 @@
 .github {
-  border: 2px solid red;
   grid-column: 8 / span 2;
   grid-row: 2 / span 5;
+  overflow-y: scroll;
+}
+
+.github-navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 60px 20px 60px;
+  font-size: 14px;
+  background-color: #20202B;
+  position: sticky;
+  top: 0;
+}
+
+.issues-tab {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  .fas.fa-sort-up {
+    color: #FFFF82;  }
+}
+
+.pull-requests-tab {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+
+  .fas.fa-sort-up {
+    color: #F564A9;
+  }
+}
+
+a:link, a:visited {
+  cursor: pointer;
+  text-decoration: none;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.tab-underlined.active, .tab-underlined {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.tab-underlined.active {
+  color: #FFFF82;
+
+  &:hover {
+    color: #FFFF82;
+  }
+}
+
+.tab-underlined {
+  color: #F564A9;
+}
+
+.github-issue-card {
+  margin: 0 0 40px 0;
+  padding: 0 0 0 10px;
+  border-left: 2px solid #777AA3;
+  font-size: 14px;
+}
+
+#issue-repo {
+  color: #777AA3;
+  margin-bottom: 2px;
+}
+
+#issue-number {
+  color: #FFFF82;
+  margin-bottom: 2px;
+}
+
+#issue-description {
+  color: white;
+  margin-bottom: 2px;
 }
