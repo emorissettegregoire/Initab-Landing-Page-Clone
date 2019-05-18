@@ -5,7 +5,6 @@
 }
 
 .github-navbar {
-  border: 2px solid red;
   display: flex;
   justify-content: space-around;
   padding: 0 60px 20px 60px;
@@ -16,12 +15,26 @@
 }
 
 .issues-tab {
-  border: 2px solid red;
   display:flex;
   flex-direction: column;
   text-align: center;
   .fas.fa-sort-up {
     color: #FFFF82;  }
+}
+
+.pull-requests-tab {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+
+  .fas.fa-sort-up {
+    color: #F564A9;
+  }
+}
+
+a:link, a:visited {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .tab-underlined.active, .tab-underlined {
@@ -31,9 +44,9 @@
 
 .tab-underlined.active {
   color: #FFFF82;
+
   &:hover {
     color: #FFFF82;
-    opacity: 0.8;
   }
 }
 
@@ -62,4 +75,3 @@
   color: white;
   margin-bottom: 2px;
 }
-
