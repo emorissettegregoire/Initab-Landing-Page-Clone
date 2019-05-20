@@ -62,6 +62,9 @@ a:link, a:visited {
   padding: 0 0 0 10px;
   border-left: 2px solid #777AA3;
   font-size: 14px;
+  &:active {
+    display: block;
+  }
 }
 
 #issue-repo {
@@ -77,4 +80,8 @@ a:link, a:visited {
 #issue-description {
   color: white;
   margin-bottom: 2px;
+}
+
+.github-pull-request-card.hide {
+  display: none;
 }
