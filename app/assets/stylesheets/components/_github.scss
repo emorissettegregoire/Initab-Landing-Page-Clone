@@ -62,7 +62,8 @@ a:link, a:visited {
 }
 
 .github-issue-card {
-  margin: 0 0 40px 0;
+  font-family: 'Inconsolata', monospace;
+  margin: 0 15px 40px 0;
   padding: 0 0 0 10px;
   border-left: 2px solid #777AA3;
   font-size: 14px;
@@ -90,7 +91,8 @@ a:link, a:visited {
 }
 
 .github-pull-request-card {
-  margin: 0 0 40px 0;
+  font-family: 'Inconsolata', monospace;
+  margin: 0 15px 40px 0;
   padding: 0 0 0 10px;
   border-left: 2px solid #777AA3;
   font-size: 14px;
