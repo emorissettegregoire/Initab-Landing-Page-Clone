@@ -18,8 +18,10 @@
   display:flex;
   flex-direction: column;
   text-align: center;
-  .fas.fa-sort-up {
-    color: #FFFF82;  }
+  #issues-arrow {
+    color: #FFFF82;
+    display: block;
+  }
 }
 
 .pull-requests-tab {
@@ -27,8 +29,9 @@
   flex-direction: column;
   text-align: center;
 
-  .fas.fa-sort-up {
+  #pull-requests-arrow {
     color: #F564A9;
+    display: none;
   }
 }
 

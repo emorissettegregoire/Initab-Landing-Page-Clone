@@ -38,29 +38,55 @@
 <script>
 
 // document.addEventListener('DOMContentLoaded', function () {
-  const toggleTab = () => {
-// get the github-issue-card divs
-  const issueCards = document.querySelectorAll('.github-issue-card');
-
-// get the github-pull-request divs
+const toggleTab = () => {
+  // get the github-pull-request cards
   const pullRequestsCards = document.querySelectorAll('.github-pull-request-card');
 
-// get the pull-requests tab
+  // get the github-issue-cards
+  const issueCards = document.querySelectorAll('.github-issue-card');
+
+  // get the pull-requests tab
   const pullRequestsTab = document.querySelector('.pull-requests-tab');
+
+  // get the issues-tab arrow
+  const pullRequestsTabArrow = document.querySelector('#pull-requests-arrow')
+
+  // get the issues-tab
+  const issuesTab = document.querySelector('.issues-tab')
+
+  // get the issues-tab arrow
+  const issuesTabArrow = document.querySelector('#issues-arrow')
 
   if (pullRequestsTab) {
     pullRequestsTab.addEventListener('click', function(){
-      document.querySelectorAll('.github-issue-card').forEach((card) => {
-          card.style.display = 'none';
+      issueCards.forEach((card) => {
+        card.style.display = 'none';
       });
-      document.querySelectorAll('.github-pull-request-card').forEach((card) => {
+
+      pullRequestsTabArrow.style.display = 'block';
+
+      pullRequestsCards.forEach((card) => {
+        card.style.display = 'block';
+       })
+      issuesTabArrow.style.display = 'none';
+    });
+  };
+
+  if (issuesTab) {
+    issuesTab.addEventListener('click', function(){
+      issueCards.forEach((card) => {
         card.style.display = 'block';
       })
-  });
-};
+      issuesTabArrow.style.display = 'block'
+      pullRequestsCards.forEach((card) => {
+        card.style.display = 'none';
+      })
+      pullRequestsTabArrow.style.display = 'none';
+    })
+  }
 };
 toggleTab();
-// })
+
 
 </script>
 
