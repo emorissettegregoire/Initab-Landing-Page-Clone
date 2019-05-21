@@ -3,7 +3,9 @@ class PagesController < ApplicationController
   def home
     @lists
     @redditcards
-    @githubcards
+    @issuecards
+    @prcards
+
   end
 
   def index
