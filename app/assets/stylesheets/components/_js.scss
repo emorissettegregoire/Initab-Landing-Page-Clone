@@ -9,7 +9,9 @@
 .list {
   font-family: 'Inconsolata', monospace;
   display: flex;
-  align-items: flex-start;
+    i, p {
+      vertical-align: middle;
+    }
   }
 
 .js-icon {
