@@ -1,6 +1,5 @@
 .left-navbar {
   font-family: 'Nunito', sans-serif;
-  border: 2px solid red;
   grid-column: 1;
   grid-row: 1 / span 6;
   padding-top: 20px;
@@ -11,10 +10,12 @@
 .settings, .gists, .stackoverflow, .trending, .scratchpad, .playground, .help
  {
   display: flex;
-  align-items: flex-start;
   padding: 10%;
   padding-left: 5%;
   padding-bottom: 0;
+  i, p {
+    vertical-align: middle;
+  }
 }
 
 .square-settings {
