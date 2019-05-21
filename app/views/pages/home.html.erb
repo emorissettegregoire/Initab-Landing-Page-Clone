@@ -33,9 +33,11 @@
 
     <%= render "shared/github" %>
 
+
+
 <script>
 
-document.addEventListener('DOMContentLoaded', function () {
+// document.addEventListener('DOMContentLoaded', function () {
   const toggleTab = () => {
 // get the github-issue-card divs
   const issueCards = document.querySelectorAll('.github-issue-card');
@@ -51,11 +53,14 @@ document.addEventListener('DOMContentLoaded', function () {
       document.querySelectorAll('.github-issue-card').forEach((card) => {
           card.style.display = 'none';
       });
+      document.querySelectorAll('.github-pull-request-card').forEach((card) => {
+        card.style.display = 'block';
+      })
   });
 };
 };
-  toggleTab();
-})
+toggleTab();
+// })
 
 </script>
 

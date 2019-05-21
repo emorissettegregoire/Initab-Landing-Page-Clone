@@ -1,9 +1,7 @@
-// = require jquery3
-// = require popper
-// = require bootstrap-sprockets
+// require jquery3
+// require popper
+// require bootstrap-sprockets
 
-// import {toggleTab} from '../github-tabs';
+// import {toggleTab} from './githubtabs';
 // toggleTab();
 
-// import {active} from './github-tabs';
-// active();
