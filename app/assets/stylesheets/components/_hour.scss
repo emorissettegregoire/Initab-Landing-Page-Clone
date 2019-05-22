@@ -8,9 +8,10 @@
 @media(max-width: 768px) {
   .hour {
     border: 2px solid red;
-    grid-column: 3 / span 11;
+    grid-column: 3 / span 12;
     grid-row: 25;
     padding: 0px;
+    margin-right: 20px;
     .time > h2 {
       font-size: 50px;
       #ampm {
