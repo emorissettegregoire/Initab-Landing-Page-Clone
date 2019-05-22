@@ -7,6 +7,14 @@
   padding-top: 50px;
 }
 
+@media(max-width: 768px) {
+  .top-navbar {
+    border: 2px solid red;
+    grid-column: 3 / span 10;
+    grid-row: 1;
+  }
+}
+
 .icon {
   font-size: 16px;
   color: #64DDF6;

@@ -6,6 +6,15 @@
   overflow-y: scroll;
 }
 
+@media(max-width: 768px) {
+  .js-list-container {
+    border: 2px solid red;
+    grid-column: 3 / span 12;
+    grid-row: 22;
+    overflow-y: scroll;
+  }
+}
+
 .list {
   font-family: 'Inconsolata', monospace;
   display: flex;

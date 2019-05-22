@@ -7,12 +7,24 @@
   background-color: #373F51;
 }
 
+@media(max-width: 768px) {
+  .left-navbar {
+    border: 2px solid red;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 23;
+    overflow-y: scroll;
+  }
+}
+
 .settings, .gists, .stackoverflow, .trending, .scratchpad, .playground, .help
  {
   display: flex;
   padding: 10%;
   padding-left: 5%;
   padding-bottom: 0;
+  :hover {
+    opacity: 0.7;
+  }
   i, p {
     vertical-align: middle;
   }

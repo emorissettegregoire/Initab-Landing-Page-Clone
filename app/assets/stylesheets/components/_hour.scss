@@ -5,6 +5,21 @@
   padding: 50px;
 }
 
+@media(max-width: 768px) {
+  .hour {
+    border: 2px solid red;
+    grid-column: 3 / span 11;
+    grid-row: 23;
+    padding: 0px;
+    .time > h2 {
+      font-size: 50px;
+      #ampm {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
 .time {
   display: flex;
   align-items:flex-end;
