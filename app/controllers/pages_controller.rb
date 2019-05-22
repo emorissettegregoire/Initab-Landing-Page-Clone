@@ -9,5 +9,9 @@ class PagesController < ApplicationController
   end
 
   def index
+    @lists
+    @redditcards
+    @issuecards
+    @prcards
   end
 end
