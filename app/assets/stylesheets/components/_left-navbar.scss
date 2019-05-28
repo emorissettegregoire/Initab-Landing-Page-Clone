@@ -5,6 +5,7 @@
   padding-top: 20px;
   position: relative;
   background-color: #373F51;
+  min-height: 100%;
 }
 
 @media(max-width: 768px) {
@@ -134,12 +135,22 @@
   font-size: 12px;
 }
 
+.menu {
+  height: 100%;
+}
+
+.bottom-left-navbar {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  background-color: #373F51;
+}
+
 .social-icons {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  position: absolute;
-  bottom: 0;
   padding-bottom: 20px;
 }
 
@@ -219,7 +230,6 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  position: absolute;
-  top: 88%;
   opacity: 0.8;
+  margin-bottom: 20px;
 }
