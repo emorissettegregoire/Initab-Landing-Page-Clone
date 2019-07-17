@@ -35,13 +35,9 @@
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'Messenger'));
 
-          window.extAsyncInit = function () {
-            MessengerExtensions.requestCloseBrowser(function success() {
-              console.log("Webview closing");
-          }, function error(err) {
-              console.log(err);
-          });
-            // SDK loaded, code to follow
+          window.extAsyncInit = function() {
+            console.log("loaded");
+
           };
 
       </script>
